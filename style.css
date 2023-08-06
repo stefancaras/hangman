@@ -1,0 +1,60 @@
+body {
+  height: 100vh;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  margin: 0;
+}
+.container {
+  position: relative;
+  height: 813px;
+  max-width: 768px;
+  background-image: url("./cat/5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.buttons {
+  position: absolute;
+  width: 200px;
+  left: 10px;
+  top: 10px;
+}
+.btn,
+.char {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 26px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+  margin: 5px;
+}
+.word {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.message {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.h1 {
+  font-size: 32px;
+}
