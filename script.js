@@ -9,8 +9,8 @@ const replaceChars = (char) => {
     if (word[i] === char) hidden[i] = char;
   }
   $(".word").innerHTML = "";
-  for (let char of hidden) {
-    $(".word").innerHTML += `<button class='btn'>${char}</button>`;
+  for (let item of hidden) {
+    $(".word").innerHTML += `<button class='btn'>${item}</button>`;
   }
 };
 
