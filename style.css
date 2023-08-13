@@ -3,15 +3,46 @@ body {
   background: linear-gradient(-45deg, #23a6d5, #23d5ab);
   margin: 0;
 }
+svg {
+  margin-top: 10px;
+}
 .container {
   position: relative;
   height: 813px;
   max-width: 768px;
-  background-image: url("./cat/5.jpg");
+  background-image: url("./media/crocodile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+.cat {
+  position: absolute;
+  width: 200px;
+  height: 279px;
+  background: url("./media/cat.png") center / contain no-repeat;
+  top: 25%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.rope {
+  position: absolute;
+  width: 36px;
+  height: 199px;
+  background-image: url("./media/6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 5%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+}
+.hearts {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20px;
+  right: 20px;
 }
 .buttons {
   position: absolute;
