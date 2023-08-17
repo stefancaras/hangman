@@ -89,3 +89,16 @@ svg {
 .h1 {
   font-size: 32px;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    height: 100vh;
+  }
+  .cat {
+    left: 70%;
+  }
+  .rope {
+    left: 65%;
+  }
+}
